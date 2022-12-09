@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dawn News</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./images/icon.png" sizes="16x16">
+  <link rel="stylesheet"  type= "text/css" href="./bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/trangchu.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <script src="./js/form.js"></script>
+</head>
+<body>
+  <!-- begin header -->
+  <div class="container-fluid">
+    <div class="top-header row justify-content-center">
+      <div class="logo col-12 col-md-6 col-lg-5 ">
+        <a href="index.html"><img id="logo" src="images/logo.png" alt=""></a>
+      </div>
+      <div class="banner col-md-6 col-lg-7">
+        <img id="banner" src="images/banner.jpg" alt="">
+      </div>
+    </div>
+  </div>
+    <div class="bottom-header">
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item" ><a href="#">Blog</a></li>
+          <li class="nav-item" ><a href="lien-he.html">Contact</a></li>
+          <li class="nav-item"><a href="#">Topics</a></li>
+        </ul>
+      </nav>
+    </div>
+  <!-- end header -->
+
+    <!-- begin main -->
+  <div class="container-fluid ">
+    <div id="main" class="row justify-content-center">
+      <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+          <form action="" name="myform" onsubmit="return validateform()">
+            <div class="formbold-mb-5">
+              <label for="name" class="formbold-form-label"> Full Name </label>
+              <input type="text" name="name" id="name" placeholder="Full Name" class="formbold-form-input"/>
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="email" class="formbold-form-label"> Email Address </label>
+              <input type="email" name="email" id="email" placeholder="Enter your email" class="formbold-form-input" />
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="subject" class="formbold-form-label"> Subject </label>
+              <input type="text" name="subject" id="subject" placeholder="Enter your subject" class="formbold-form-input"/>
+            </div>
+      
+            <div class="formbold-mb-5">
+              <label for="message" class="formbold-form-label"> Message </label>
+              <textarea rows="6" name="message" id="message" placeholder="Type your message" class="formbold-form-input"></textarea>
+            </div>
+      
+            <div>
+              <button class="formbold-btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- end main -->
+
+    <!-- begin footer -->
+    <div id="footer">
+      <div class="footer-content">
+          <h3>Dawn News</h3>
+          <p>Dawn News là một trang web tin tức, nơi bạn có thể tìm thấy rất nhiều thông tin hữu ích và không chỉ đọc tin tức mà còn viết tin tức của riêng bạn. 
+            Bạn có thể tìm thấy thông tin về bất kỳ chủ đề nào bạn quan tâm ngay tại đây. Chúng tôi luôn cung cấp cho bạn những tin tức cập nhật và đáng tin cậy, vì vậy bạn sẽ muốn quay lại thường xuyên.
+          </p>
+          <p>Dawn News is a news website where you can find a lot of useful information and not only read the news but also write your own. 
+            You can find information on any topic you are interested in right here. We always provide you with up-to-date and trustworthy news, so you'll want to return frequently.
+          </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.550158266326!2d106.7919774493696!3d10.845696392236631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527158a0a5b81%3A0xf45c5d34ac580517!2zUGjDom4gaGnhu4d1IFRyxrDhu51uZyDEkOG6oWkgaOG7jWMgR1RWVCB04bqhaSBUcC4gSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1670515216326!5m2!1svi!2s" 
+              max-width="440px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="container-fluid">
+        <div class="footer-bottom row justify-content-between">
+            <p class="col-12 col-lg-2">copyright &copy; <a href="#">Dawn</a>  </p>
+              <div class="col-lg-2 footer-menu">
+                <ul class="justify-content-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="lien-he.html">Contact</a></li>
+                  <li><a href="">About</a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+</body>
+</html>
